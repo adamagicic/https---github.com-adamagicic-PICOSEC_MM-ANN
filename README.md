@@ -8,6 +8,7 @@ Required packages (Python 3.9.21):
 - scipy
 - pandas
 - matplotlib
+- lecroyscope
 
 Dataset creation file (`prepareCSVfile.py`) requires raw signal, tracker and .mat analysis data (not available here).
 

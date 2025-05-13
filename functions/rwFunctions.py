@@ -117,6 +117,3 @@ def writeData(pointSignalData, matDataLabels, saveName, event0, eventF):
     print(f'Elapsed time: %lf s' % (t1-t0))
 
     return df
-
-def getFolderPath():
-    return os.path.dirname(os.path.realpath(__file__))
