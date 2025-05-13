@@ -1,0 +1,38 @@
+{
+  "citation": "// TODO(run353dataset): BibTeX citation",
+  "description": "PICOSEC-MM data from Run353 test at H4 extraction line at CERN (July 2024)\n\nNew data extraction method, directly from .mat file",
+  "fileFormat": "tfrecord",
+  "location": {
+    "urls": [
+      "https://dummy-page.org"
+    ]
+  },
+  "moduleName": "run353dataset.run353dataset_dataset_builder",
+  "name": "run353dataset",
+  "releaseNotes": {
+    "1.1.2": "Finalized point selection; no more noisy data."
+  },
+  "splits": [
+    {
+      "filepathTemplate": "{DATASET}-{SPLIT}.{FILEFORMAT}-{SHARD_X_OF_Y}",
+      "name": "train",
+      "numBytes": "10194456",
+      "shardLengths": [
+        "31131"
+      ]
+    }
+  ],
+  "supervisedKeys": {
+    "tuple": {
+      "items": [
+        {
+          "featureKey": "time_label"
+        },
+        {
+          "featureKey": "signal_data"
+        }
+      ]
+    }
+  },
+  "version": "1.1.2"
+}

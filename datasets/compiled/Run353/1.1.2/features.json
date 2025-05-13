@@ -1,0 +1,38 @@
+{
+    "pythonClassName": "tensorflow_datasets.core.features.features_dict.FeaturesDict",
+    "featuresDict": {
+        "features": {
+            "signal_data": {
+                "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+                "tensor": {
+                    "shape": {
+                        "dimensions": [
+                            "64"
+                        ]
+                    },
+                    "dtype": "float64",
+                    "encoding": "none"
+                },
+                "description": "64 signal points for ANN input"
+            },
+            "eventNo": {
+                "pythonClassName": "tensorflow_datasets.core.features.scalar.Scalar",
+                "tensor": {
+                    "shape": {},
+                    "dtype": "int64",
+                    "encoding": "none"
+                },
+                "description": "event number (ID)"
+            },
+            "time_label": {
+                "pythonClassName": "tensorflow_datasets.core.features.scalar.Scalar",
+                "tensor": {
+                    "shape": {},
+                    "dtype": "float64",
+                    "encoding": "none"
+                },
+                "description": "PICOSEC-MM arrival time from full signal analysis"
+            }
+        }
+    }
+}
